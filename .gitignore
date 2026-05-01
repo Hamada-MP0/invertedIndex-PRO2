@@ -1,0 +1,40 @@
+# Large data files - do not commit
+Backend/data/scraped_pages/
+Backend/data/*.json
+Backend/data/*.pkl
+Backend/data/*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Node / Frontend
+node_modules/
+Frontend/node_modules/
+dist/
+.next/
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
